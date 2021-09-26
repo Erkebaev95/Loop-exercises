@@ -7,7 +7,6 @@ public class Loop1 {
         // Вывод первых 3 элементов массива
         System.out.println("Исходный массив: " + Arrays.toString(array));
         System.out.print("Первые 3 элемента:");
-
         int count = 3;
         for (int i = 0; i < count; i++) {
             System.out.print(" " + array[i]);
